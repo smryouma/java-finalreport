@@ -9,7 +9,7 @@ public class Main {
         Enterword write=new Enterword();
         nowTheme.theme();
         write.inword();
-        System.out.println("いい句ですね");
+       
         
 
 
