@@ -8,10 +8,6 @@ public class Main {
         Haiku nowTheme=new Haiku();
         Enterword write=new Enterword();
         nowTheme.theme();
-        write.inword();
-       
-        
-
-
+        write.inword();   
     } 
 }
