@@ -17,16 +17,19 @@ public class Enterword {
      * 
      * 下の句＝５文字で受け取ります。<br>
      * 
-     * それ以外の文字列を受け取るとエラーメッセージが表示されます
+     * それ以外の文字列を受け取るとエラーメッセージが表示されます<br>
+     * 
+     * 指定された文字数になるまで繰り返します。
      * @param 
      */
+    
     public void inword(){
+
 
         /**
          * 入力された文字列を受け取る変数
          */
         String top,center,under;
-
         /**
          * 文字列の字数を保持する変数
          */
@@ -58,6 +61,7 @@ public class Enterword {
             under5 =under.length();
             while (under5 != 5){
                 System.out.println("※５文字で入力してください。");
+                under =null;
                 System.out.println("・下の句を入力");
                 under =scanner.nextLine();
                 under5 =under.length();
